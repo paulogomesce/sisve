@@ -1,0 +1,1 @@
+<?php	$user    = "root";	$senha   = "";	$host    = "127.0.0.1";	$banco   = "controle_venda";?>

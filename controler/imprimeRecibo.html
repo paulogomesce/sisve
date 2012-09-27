@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="pt-br">
+	<head>
+		<title>Impressão de Recibo</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<!--declarações JAVASCRIPT-->
+		<script type="text/javascript">
+			window.onload = function(){
+				var imprimir = confirm("Imprimir Cupom?");
+				if(imprimir){
+					window.print();
+				}
+			};
+		</script>
+		<!--declarações CSS-->
+		<style type="text/css" media="all">
+			.clear{clear: both;}
+			#conteiner{border: 0px solid gray; width: 250px; height: auto; margin: -6px;}
+			#conteudo{font-family: arial; font-size: 0.55em;}
+			#conteiner #cabecalho{border: 0px solid gray; font-family: arial; font-size: 0.55em; padding: 3px 0 3px 0;}
+			#conteiner #cabecalho div{text-align: center;}
+			#dt_hora_nu_ven{border: 0px solid gray; padding:0; margin:0;}
+			#data{float:left; border: 0px solid gray; padding:0; margin:0;}
+			#nu_venda{float:right; border: 0px solid gray; padding:0; margin:0;}
+			#conteiner #rodape div{border: 0px solid gray; font-family: arial; font-size: 0.55em;}
+			#titulo{text-align: center; font-weight: bold;}
+			
+		
+		</style>
+	</head>
+	<body>
+		<div id="conteiner">
+			<div id="cabecalho">
+				<div id="nm_empresa">DENTALVIDA - SAUDE ODONTOLOGICA</div>
+				<div id="end_empresa">RUA PINTO MADEIRA, 1500</div>
+				<div id="bai_cid_uf">ALDEOTA - FORTALEZA - CEARA</div>
+				<div id="msg_adicional">OBRIGADO PELA PREFERÊNCIA E VOLTE SEMPRE.</div>
+				<div id="cnpj">CNPJ: 02.263.852/0001-88</div>
+				<hr />
+			</div>
+			<div id="conteudo">
+				<div id="dt_hora_nu_ven">
+					<div id="data">30/06/2011 13:57</div>
+					<div id="nu_venda">VENDA: 123445</div>
+					<div class="clear"></div>
+				</div>
+				<div id="titulo">RECIDO</div>
+				<table border="0">
+					<tr>
+						<td>ITEM</td>
+						<td>COD</td>
+						<td>DESCRICAO</td>
+						<td>QTD</td>
+						<td>VL R$</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1000</td>
+						<td>HIPOCLORETO DE SODO 500ML EM G55555</td>
+						<td>1</td>
+						<td>10.00</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>10000</td>
+						<td>BICARBONATO DE PARALELEPIPEDO EM PASTA 5L</td>
+						<td>5</td>
+						<td>100.00</td>
+					</tr>
+				</table>
+			</div>
+			<div id="rodape">
+				<div id="user">OPERADOR: PAULO GOMES</div>
+				<div id="nm_sistema">SISVE 1.0</div>
+				<div id="msg_adic_rodape">NAO VALE COMO DUCUMENTO FISCAL</div>
+			</div>
+			<button onclick="javascript: window.print()">Imprimir</button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+#conteiner_modal{width: 400px; border: 1px solid gray; mim-height: 100px; margin: 0 auto; position: fixed;
+            top: 50px; left: 200px;background-color: #FFF5EE; font-family: tahoma; font-size: 0.8em; visibility:hidden; max-height: 600px; overflow: auto;}
+#titulo_conteiner{background-image:url("../imagens/bg_title_popup.png"); height: 22px; border: 0px solid gray; padding: 3px 0 0 5px; font-weight: bold; color: black;}
+#dados_res{padding: 5px 5px 5px 5px}
+#div_botao{width: 100%; height: 30px; border: 0px solid gray; text-align: center;padding-top: 5px;}

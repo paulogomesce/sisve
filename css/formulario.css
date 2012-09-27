@@ -1,0 +1,41 @@
+#img_title{
+  float: left;
+  margin: -2px 2px;
+}
+
+#title_form{
+  width: 100%;
+  height: 22px;
+  margin-right: 2px;
+  border: solid black 0px;
+  background-color: #B4CDCD;
+}
+
+#titulo{
+  border: solid gray 0px;
+  float: left;
+  margin-top: 0px;
+  color: #00008B;
+  font-family: Gill, Helvetica, sans-serif;
+}
+
+.label_form{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: arial;
+  color: #1E90FF;
+  /*float: left;*/
+}
+
+.input_form{
+  margin: 0px;
+  background-color: #FFEBCD;
+  border: solid #1E90FF 1px;
+  font-weight: bolder;
+}
+
+#espaco_campos{
+  width: 100%;
+  height: 10px;
+}

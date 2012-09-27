@@ -1,0 +1,18 @@
+body{
+background-image: url("../imagens/borda_menu.png");
+background-repeat: repeat-y;
+background-position: 100% 0px;
+}
+
+#titulo_menu{
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  background-color: #B4CDCD;
+	background-image: url("../imagens/bg_cabecalho_titulo_menu.png");
+  font-family: tahoma;
+  font-size: 14;
+  font-weight: 900;
+  height: 20px;
+  color: black;
+}
